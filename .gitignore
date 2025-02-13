@@ -1,0 +1,12 @@
+# general
+__pycache__/
+*.pth
+*.log
+
+# model weights and local files
+Archive/dataset_csv/TCGA_Log_Transcriptome_Final.csv
+ModelWeight/
+
+# dev related
+logs/
+generated_scripts/

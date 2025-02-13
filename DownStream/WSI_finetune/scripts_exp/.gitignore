@@ -1,0 +1,12 @@
+legacy/
+results/
+results_*/
+invalid_samples/
+*_stl/
+*_stl_*/
+*_stl_quicktest/
+*_mtl/
+*_mtl_*/
+*_mtl_quicktest/
+*_verify/
+run_all_scripts_*.sh

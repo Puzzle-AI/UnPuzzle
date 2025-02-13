@@ -1,0 +1,52 @@
+name: BigModel
+channels:
+  - defaults
+  - nvidia
+  - pytorch
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.10  # Specify the Python version you want to use
+  - cuda
+  - packaging
+  - pytorch==2.4.0
+  - torchvision==0.19.0
+  - torchaudio==2.4.0
+  - pytorch-cuda=12.1
+  - openslide
+  - pip:
+      - omegaconf
+      - torchmetrics==1.4.1
+      - fvcore
+      - iopath
+      - easydict
+      - nystrom-attention
+      - mmcls
+      - mmcv-full
+      - ttach
+      - xformers==0.0.27.post2
+      - huggingface-hub==0.24.6
+      - h5py
+      - numpy
+      - pandas
+      - pillow
+      - tqdm
+      - einops
+      - webdataset
+      - matplotlib
+      - lifelines
+      - scikit-survival
+      - scikit-learn
+      - tensorboard
+      - fairscale
+      - wandb
+      - timm>=1.0.9
+      - packaging==24.1
+      - ninja==1.11.1.1
+      - transformers==4.44.2
+      - flash-attn==2.6.3
+      - monai
+      - openslide-python
+      - scikit-image
+      - opencv_contrib_python
+      - tensorboardX
